@@ -1,6 +1,6 @@
 # HotelSystem
 
-Made as a group project while studying at Dokuz Eylul University Izmir. [https://ceng.deu.edu.tr](url)
+Made as a group project while studying at Dokuz Eylul University Izmir. [DEUCENG Website](https://ceng.deu.edu.tr)
 
 Java terminal program that can do the following:
 
