@@ -8,6 +8,8 @@ Java terminal program that can do the following:
 2. Add employees
 3. Add customers
 4. Add reservations
+5. List all of the above
+6. Search for customers by their name
 5. Various of statistics
 
 The program can execute from commands using `commands.txt` file.
@@ -24,3 +26,4 @@ You can put the following commands to the `commands.txt` file in this form:
 8. `listCustomers`
 9. `listReservations`
 10. `statistics`
+11. `searchCustomer;string`
