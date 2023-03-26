@@ -27,3 +27,10 @@ You can put the following commands to the `commands.txt` file in this form:
 9. `listReservations`
 10. `statistics`
 11. `searchCustomer;string`
+
+What's not working? (All work in progress)
+
+1. `searchCustomer` command only supports * and not ?
+2. `statistics` command only 50% works.
+3. `searchRoom` command is yet to be implemented.
+4. `simulation` command is yet to be implemented.
