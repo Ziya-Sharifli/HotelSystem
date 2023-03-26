@@ -62,6 +62,10 @@ public class Advanced {
                 Employee.addEmployee();
                 executedMsg();
             }
+            case "searchCustomer"->{
+                SearchCustomer.searchCustomerInit();
+                executedMsg();
+            }
             default -> {
                 System.out.println("Unknown command. Please enter C in the Menu for the list of available commands.");
                 MainMenu.menuSkip();

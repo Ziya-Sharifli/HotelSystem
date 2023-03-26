@@ -39,10 +39,11 @@ public class MainMenu {
             System.out.println("7. List customers");
             System.out.println("8. Add a reservation");
             System.out.println("9. List reservations");
-            System.out.println("10. Statistics"+ANSI_RESET);
+            System.out.println("10. Statistics");
+            System.out.println("11. Search for a customer"+ANSI_RESET);
             System.out.println(ANSI_RED+"\n***** Advanced *****"+ANSI_RESET);
-            System.out.println(ANSI_PURPLE+"11. Read & execute all commands from commands.txt");
-            System.out.println("12. Reset all text files");
+            System.out.println(ANSI_PURPLE+"12. Read & execute all commands from commands.txt");
+            System.out.println("13. Reset all text files");
             System.out.println("0. Advanced user mode (manual command entry)");
             System.out.println("Enter Q for quitting"+ANSI_RESET);
             System.out.print("\n-> ");
@@ -94,10 +95,14 @@ public class MainMenu {
                     menuSkip();
                     mainMenu();
                 case "11":
-                    AdvancedRead.advancedRead();
+                    SearchCustomer.searchCustomerInit();
                     menuSkip();
                     mainMenu();
                 case "12":
+                    AdvancedRead.advancedRead();
+                    menuSkip();
+                    mainMenu();
+                case "13":
                     ResetFiles.resetFiles();
                     menuSkip();
                     mainMenu();

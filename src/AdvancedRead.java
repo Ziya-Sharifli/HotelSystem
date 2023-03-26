@@ -173,6 +173,14 @@ public class AdvancedRead {
                     System.out.println("\nEmployee successfully deleted from system.");
 
                 }
+                if (line.contains("searchCustomer")) {
+
+                    System.out.println("\n-----SEARCH CUSTOMER-----");
+                    System.out.println("Search input was: "+arrOfCommands[1]);
+                    SearchCustomer.searchInput = arrOfCommands[1];
+                    SearchCustomer.searchCustomer();
+                    System.out.println("--------------------------------------------------------");
+                }
 
                 line = reader.readLine();
             }
