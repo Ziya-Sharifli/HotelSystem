@@ -1,6 +1,8 @@
 # HotelSystem
 
-JAVA terminal program that can do the following:
+Made as a group project while studying at Dokuz Eylul University Izmir.
+
+Java terminal program that can do the following:
 
 1. Add rooms
 2. Add employees
