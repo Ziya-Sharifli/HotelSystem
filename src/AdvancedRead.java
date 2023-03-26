@@ -1,5 +1,3 @@
-import jdk.dynalink.beans.StaticClass;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -167,6 +165,13 @@ public class AdvancedRead {
                     Statistics.mostReserved();
                     Statistics.bestCustomer();
                     Statistics.getExpenses();
+                }
+                if (line.contains("deleteEmployee")) {
+
+                    DeleteEmployee.deleteInput = Integer.parseInt(arrOfCommands[1]);
+                    DeleteEmployee.deleteEmployee();
+                    System.out.println("\nEmployee successfully deleted from system.");
+
                 }
 
                 line = reader.readLine();
